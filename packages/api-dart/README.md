@@ -52,7 +52,8 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Models
 
- - [User](doc//User.md)
+ - [AddUserRequest](doc//AddUserRequest.md)
+ - [GetUser](doc//GetUser.md)
 
 
 ## Documentation For Authorization

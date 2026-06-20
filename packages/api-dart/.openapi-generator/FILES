@@ -2,7 +2,8 @@
 .travis.yml
 README.md
 analysis_options.yaml
-doc/User.md
+doc/AddUserRequest.md
+doc/GetUser.md
 git_push.sh
 lib/api.dart
 lib/api_client.dart
@@ -13,5 +14,7 @@ lib/auth/authentication.dart
 lib/auth/http_basic_auth.dart
 lib/auth/http_bearer_auth.dart
 lib/auth/oauth.dart
-lib/model/user.dart
+lib/model/add_user_request.dart
+lib/model/get_user.dart
 pubspec.yaml
+test/get_user_test.dart

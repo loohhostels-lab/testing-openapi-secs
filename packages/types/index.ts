@@ -16,6 +16,7 @@ const getUser = z.object({
 
 // get type of getUser
 type GetUser = z.infer<typeof getUser>;
+type AddUserSchema = z.infer<typeof addUserSchema>;
 
 
-export { addUserSchema, getUser, type GetUser }
+export { type AddUserSchema, addUserSchema, getUser, type GetUser }

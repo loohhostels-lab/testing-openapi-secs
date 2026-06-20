@@ -6,7 +6,18 @@
   },
   "components": {
     "schemas": {
-      "User": {
+      "GetUser": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ]
+      },
+      "AddUserRequest": {
         "type": "object",
         "properties": {
           "name": {

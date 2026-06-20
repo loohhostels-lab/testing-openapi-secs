@@ -7,7 +7,10 @@ export type paths = Record<string, never>;
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
-        User: {
+        GetUser: {
+            email: string;
+        };
+        AddUserRequest: {
             name: string;
             email: string;
             password: string;

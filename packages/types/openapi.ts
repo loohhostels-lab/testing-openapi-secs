@@ -3,11 +3,13 @@ import { z } from "zod";
 
 extendZodWithOpenApi(z);
 
-import { addUserSchema } from "./index";
+import { addUserSchema, getUser } from "./index";
 
 export const registry = new OpenAPIRegistry();
 
-registry.register("User", addUserSchema);
+registry.register("GetUser", getUser);
+registry.register("AddUserRequest", addUserSchema);
+
 
 const generator = new OpenApiGeneratorV3(registry.definitions);
 
