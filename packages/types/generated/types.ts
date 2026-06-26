@@ -15,6 +15,11 @@ export interface components {
             email: string;
             password: string;
         };
+        User: {
+            name: string;
+            email: string;
+            password: string;
+        };
     };
     responses: never;
     parameters: never;

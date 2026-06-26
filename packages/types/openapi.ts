@@ -9,6 +9,7 @@ export const registry = new OpenAPIRegistry();
 
 registry.register("GetUser", getUser);
 registry.register("AddUserRequest", addUserSchema);
+registry.register("User", addUserSchema);
 
 
 const generator = new OpenApiGeneratorV3(registry.definitions);
